@@ -87,7 +87,10 @@ p {
 #gallery img {
     max-width: 100%;
     margin-bottom: 20px; /* Espacio entre las imágenes */
+    margin-left: auto; /* Centrar la imagen horizontalmente */
+    margin-right: auto; /* Centrar la imagen horizontalmente */
 }
+
 
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 600px) {

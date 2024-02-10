@@ -5,22 +5,6 @@
     <link rel="stylesheet" href="css/styles05.css">
     <title>Juan Gustavo Garcia</title>
     <meta charset="utf-8">
-    <style>
-        
-        #gallery {
-            overflow: hidden;
-            white-space: nowrap;
-            margin-top: 20px;
-            text-align: center;
-        }
-        
-        #gallery img {
-            display: inline-block;
-            max-width: 100%;
-            vertical-align: middle;
-            transition: transform 0.5s ease;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -34,7 +18,7 @@
         </section>
     </main>
     <footer>
-        <a href="Assignment1.html">Back to Home</a>
+        <h2><a href="Assignment1.html">Back to Home</a></h2>
     </footer>
 
     <div id="gallery">
@@ -42,16 +26,5 @@
         <img src="images/image2.jpg" alt="Image 2">
         <img src="images/image3.jpg" alt="Image 3">
     </div>
-
-    <script>
-        const gallery = document.getElementById('gallery');
-        let posX = 0;
-        const slideImages = () => {
-            posX -= 5;
-            gallery.style.transform = `translateX(${posX}px)`;
-            requestAnimationFrame(slideImages);
-        };
-        slideImages();
-    </script>
 </body>
 </html>

@@ -1,36 +1,116 @@
-/* Juan Garcia  */
 body {
-    background-color: rgb(200, 243, 229);
-    background-size:auto
-    background-position:auto;
+    background-color: #13293D; 
     font-family: Arial, sans-serif;
-    color: #000000;
+    color: #FFFFFF; 
 }
+
 img {
-    box-shadow: .5em .5em .5em #404040;
-    margin:auto;
-    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    display: block;
+    margin: 0 auto;
     max-width: 100%;
 }
-#container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-header {
+
+h1 {
     font-family: Verdana, Arial, sans-serif;
-    margin-top: 0.2em;
     text-align: center;
+    color: #FFFFFF;
+    font-size: 4em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
-main {
-    display: block;
-    margin-top: 0.5em;
-    padding: 1em;
-    border-radius: 1em;
-    background-blend-mode: overlay;
-}
-footer {
-    font-size: .70em;
+
+#title-container {
+    background-color: #001a33; 
     text-align: center;
-    margin-top: 2em;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-family: Verdana, Arial, sans-serif;
+    text-align: center;
+    color: #FFFFFF; 
+    font-size: 2em;
+}
+
+#about {
+    background-color: #3D6880; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+#presentation,
+#bornInfo,
+#studyInfo,
+#workInfo,
+#canadaInfo {
+    background-color: #BEBEBE; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+#footer {
+    background-color: #001a33; 
+    color: #FFFFFF; 
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    text-align: center;
+    padding: 0 10px;
+    color: #FFFFFF; 
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    
+    body {
+        background-color: #13293D; 
+    }
+    h1 {
+        font-size: 2.5em; 
+    }
+    p {
+        font-size: 16px; 
+    }
+}
+
+/* tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    
+    body {
+        background-color: #13293D; 
+    }
+    h1 {
+        font-size: 3em; 
+    }
+    p {
+        font-size: 18px; 
+    }
+}
+
+/* desktop */
+@media only screen and (min-width: 1025px) {
+    
+    body {
+        background-color: #13293D; 
+    }
+    h1 {
+        font-size: 4em; 
+    }
+    p {
+        font-size: 20px; 
+    }
 }

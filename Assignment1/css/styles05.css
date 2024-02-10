@@ -1,11 +1,12 @@
+/* Estilos generales */
 body {
-    background-color: #13293D; 
+    background-color: #13293D;
     font-family: Arial, sans-serif;
-    color: #FFFFFF; 
+    color: #FFFFFF;
 }
 
 img {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: block;
     margin: 0 auto;
     max-width: 100%;
@@ -16,31 +17,32 @@ h1 {
     text-align: center;
     color: #FFFFFF;
     font-size: 4em;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 #title-container {
-    background-color: #001a33; 
+    background-color: #001a33;
     text-align: center;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 h2 {
     font-family: Verdana, Arial, sans-serif;
     text-align: center;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 #about {
-    background-color: #3D6880; 
+    background-color: #3D6880;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 #presentation,
@@ -48,69 +50,71 @@ h2 {
 #studyInfo,
 #workInfo,
 #canadaInfo {
-    background-color: #BEBEBE; 
+    background-color: #BEBEBE;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 #footer {
-    background-color: #001a33; 
-    color: #FFFFFF; 
+    background-color: #001a33;
+    color: #FFFFFF;
     text-align: center;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 p {
     text-align: center;
     padding: 0 10px;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     font-size: 18px;
     font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-/* mobile */
+/* Galería de imágenes */
+#gallery {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que las imágenes se envuelvan en filas */
+    justify-content: center; /* Centrar las imágenes horizontalmente */
+    gap: 20px; /* Espacio entre las imágenes */
+}
+
+#gallery img {
+    max-width: 100%;
+    margin-bottom: 20px; /* Espacio entre las imágenes */
+}
+
+/* Estilos para dispositivos móviles */
 @media only screen and (max-width: 600px) {
-    
-    body {
-        background-color: #13293D; 
-    }
     h1 {
-        font-size: 2.5em; 
+        font-size: 2.5em;
     }
     p {
-        font-size: 16px; 
+        font-size: 16px;
     }
 }
 
-/* tablets */
+/* Estilos para tablets */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-    
-    body {
-        background-color: #13293D; 
-    }
     h1 {
-        font-size: 3em; 
+        font-size: 3em;
     }
     p {
-        font-size: 18px; 
+        font-size: 18px;
     }
 }
 
-/* desktop */
+/* Estilos para desktop */
 @media only screen and (min-width: 1025px) {
-    
-    body {
-        background-color: #13293D; 
-    }
     h1 {
-        font-size: 4em; 
+        font-size: 4em;
     }
     p {
-        font-size: 20px; 
+        font-size: 20px;
     }
 }

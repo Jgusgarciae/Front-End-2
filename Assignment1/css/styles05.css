@@ -1,32 +1,36 @@
 /* Juan Garcia  */
 body {
-background-color: #FF9933;
+    background-color: rgb(200, 243, 229);
+    background-size:auto
+    background-position:auto;
+    font-family: Arial, sans-serif;
+    color: #000000;
 }
 img {
-box-shadow: .5em .5em .5em #404040;
-margin: 1%;
-text-align: center;
-max-width: 100%;
+    box-shadow: .5em .5em .5em #404040;
+    margin:auto;
+    text-align: center;
+    max-width: 100%;
 }
 #container {
-width: 100%;
-margin-left: auto;
-margin-right: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 header {
-font-family: Verdana, Arial, sans-serif;
-margin-top: 0.2em;
-text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    margin-top: 0.2em;
+    text-align: center;
 }
 main {
-display: block;
-margin-top: 0.5em;
-padding: 1em;
-border-radius: 1em;
-background-color: #FFFFFF;
+    display: block;
+    margin-top: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    background-blend-mode: overlay;
 }
 footer {
-font-size: .70em;
-text-align: center;
-margin-top: 2em;
+    font-size: .70em;
+    text-align: center;
+    margin-top: 2em;
 }

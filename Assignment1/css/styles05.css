@@ -79,16 +79,16 @@ p {
 /* Galería de imágenes */
 #gallery {
     display: flex;
-    flex-wrap: wrap; /* Permitir que las imágenes se envuelvan en filas */
-    justify-content: center; /* Centrar las imágenes horizontalmente */
-    gap: 20px; /* Espacio entre las imágenes */
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
 }
 
 #gallery img {
     max-width: 100%;
-    margin-bottom: 20px; /* Espacio entre las imágenes */
-    margin-left: auto; /* Centrar la imagen horizontalmente */
-    margin-right: auto; /* Centrar la imagen horizontalmente */
+    margin-bottom: 20px; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
 
